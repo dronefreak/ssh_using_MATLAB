@@ -1,5 +1,5 @@
 # Instructions
-#####This README intends to give full information about how to use the package. Please follow the instructions to ensure package installation correctly. 
+##### This README intends to give full information about how to use the package. Please follow the instructions to ensure package installation correctly. 
 ----
 ## About ssh_MATLAB
 
@@ -27,16 +27,16 @@
 >
 >password = 'q'
 
-####Now run the following command as metioned earlier:-
-    sshfrommatlab(user_name, host_name, password)
-####If everything works fine, you should see a valid JavaConnection Object as your answer.
+#### Now run the following command as metioned earlier:-
+    `sshfrommatlab(user_name, host_name, password)`
+#### If everything works fine, you should see a valid JavaConnection Object as your answer.
 
-####Use:-
+#### Use:-
 
     sshfrommatlabissue(channel, command)
-####to issue commands (*as strings*) to the remote host via the secure shell.
+#### to issue commands (*as strings*) to the remote host via the secure shell.
 
-####In order to initiate file transfer between MATLAB and the remote host, you should give the following commands:
+#### In order to initiate file transfer between MATLAB and the remote host, you should give the following commands:
 >For sending files to the remote host from MATLAB issue:-
 
     sftpfrommatlab(user_name, host_name, password, local_file_name, remote_file_name)
@@ -64,5 +64,4 @@
 
 ----
 ## Thanks
-###For my other work in MATLAB check out my documentation below. 
-* [dronefreak](https://bitbucket.org/dronefreak)
+If you have any queries please feel free to contact me at kumar324@gmail.com
